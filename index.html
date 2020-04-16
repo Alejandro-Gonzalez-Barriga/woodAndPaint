@@ -17,7 +17,7 @@
     <!-- meta character set -->
     <meta charset="UTF-8" />
     <!-- Site Title -->
-    <title>Construction</title>
+    <title>Chato Construction</title>
 
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700"
@@ -36,6 +36,22 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <script>
+      window.fbAsyncInit = function () {
+        FB.init({
+          appId: 'your-app-id',
+          autoLogAppEvents: true,
+          xfbml: true,
+          version: 'v6.0',
+        });
+      };
+    </script>
+    <script
+      async
+      defer
+      src="https://connect.facebook.net/en_US/sdk.js"
+    ></script>
+
     <header id="header" id="home">
       <div class="container">
         <div class="row align-items-center justify-content-between d-flex">
@@ -48,13 +64,12 @@
               <li><a href="#feature">Feature</a></li>
               <li><a href="#project">Project</a></li>
               <li><a href="#service">Service</a></li>
-              <li><a href="#blog">Blog</a></li>
               <li><a href="#contact">Contact</a></li>
               <li class="menu-has-children">
-                <a href="">Pages</a>
+                <a href="">Languages</a>
                 <ul>
-                  <li><a href="generic.html">Generic</a></li>
-                  <li><a href="elements.html">Elements</a></li>
+                  <li><a href="generic.html">Spanish</a></li>
+                  <li><a href="index.html">English</a></li>
                 </ul>
               </li>
             </ul>
