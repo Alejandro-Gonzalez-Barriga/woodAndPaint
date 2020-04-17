@@ -52,6 +52,7 @@
         if (d.getElementById(id)) return;
         js = d.createElement(s);
         js.id = id;
+
         js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
         fjs.parentNode.insertBefore(js, fjs);
       })(document, 'script', 'facebook-jssdk');
@@ -73,9 +74,9 @@
           <nav id="nav-menu-container">
             <ul class="nav-menu">
               <li class="menu-active"><a href="#home">Home</a></li>
-              <li><a href="#feature">Feature</a></li>
+              <li><a href="#feature">Services</a></li>
               <li><a href="#project">Project</a></li>
-              <li><a href="#service">Service</a></li>
+              <li><a href="#service">Stats</a></li>
               <li><a href="#contact">Contact</a></li>
               <li class="menu-has-children">
                 <a href="">Languages</a>
@@ -160,62 +161,6 @@
     </section>
     <!-- End features Area -->
 
-    <!-- Start offered Area -->
-    <section class="offered-area section-gap" id="offered">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="menu-content pb-60 col-lg-8">
-            <div class="title text-center">
-              <h1 class="mb-10">Some Features that Made us Unique</h1>
-              <p>Who are in extremely love with eco friendly system.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="single-offered">
-              <img class="img-fluid" src="img/s1.png" alt="" />
-              <a href="#"
-                ><h4 class="pt-20 pb-20">Basic & Common Repairs</h4></a
-              >
-              <p>
-                Computer users and programmers have become so accustomed to
-                using Windows, even for the changing capabilities and the
-                appearances of the graphical.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="single-offered">
-              <img class="img-fluid" src="img/s2.png" alt="" />
-              <a href="#"
-                ><h4 class="pt-20 pb-20">Brake Repairs & Services</h4></a
-              >
-              <p>
-                Computer users and programmers have become so accustomed to
-                using Windows, even for the changing capabilities and the
-                appearances of the graphical.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="single-offered">
-              <img class="img-fluid" src="img/s3.png" alt="" />
-              <a href="#"
-                ><h4 class="pt-20 pb-20">Preventive Maintenance</h4></a
-              >
-              <p>
-                Computer users and programmers have become so accustomed to
-                using Windows, even for the changing capabilities and the
-                appearances of the graphical.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End offered Area -->
-
     <!-- Start projects Area -->
     <section class="projects-area pb-100" id="project">
       <div class="container-fluid">
@@ -230,7 +175,10 @@
         <div class="row">
           <div class="active-project-carusel col-lg-12">
             <div class="item">
-              <div class="single-project" style="background: url(img/p1.jpg);">
+              <div
+                class="single-project"
+                style="background: url(img/Deck-Gate.jpg);"
+              >
                 <div class="overlay overlay-content">
                   <h1>
                     Alex Complex for <br />
@@ -249,7 +197,10 @@
               </div>
             </div>
             <div class="item">
-              <div class="single-project" style="background: url(img/p2.jpg);">
+              <div
+                class="single-project"
+                style="background: url(img/paint.jpeg);"
+              >
                 <div class="overlay overlay-content">
                   <h1>
                     Alex Complex for <br />
@@ -388,7 +339,7 @@
     <!-- End projects Area -->
 
     <!-- Start fact Area -->
-    <section class="facts-area section-gap">
+    <section class="facts-area section-gap" id="service">
       <div class="container">
         <div class="row">
           <div class="col single-fact">
@@ -417,7 +368,7 @@
     <!-- end fact Area -->
 
     <!-- Start service Area -->
-    <section class="service-area section-gap" id="service">
+    <section class="service-area section-gap">
       <div class="container">
         <div class="row d-flex justify-content-center">
           <div class="col-md-8 pb-40 header-text">
