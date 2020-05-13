@@ -2,6 +2,11 @@
   "short_name": "Chato's",
   "name": "Chato's Paint and Woodwork",
   "description": "Painting and carpinter services",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "theme_color": "#FFE9D2",
+  "background_color": "#FFE9D2",
+  "orientation": "portrait-primary",
   "icons": [
     {
       "src": "img/pwa-logos/chatos-simp-logo-circle-72x72.png",
@@ -38,10 +43,5 @@
       "sizes": "96x96",
       "type": "image/png"
     }
-  ],
-  "start_url": "/index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#FF0000",
-  "orientation": "portrait-primary"
+  ]
 }
