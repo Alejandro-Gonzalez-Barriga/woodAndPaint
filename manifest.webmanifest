@@ -41,7 +41,7 @@
   ],
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#daa52",
-  "background_color": "#daa52",
+  "theme_color": "#DAA52",
+  "background_color": "#DAA52",
   "orientation": "portrait-primary"
 }
