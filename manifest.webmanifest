@@ -1,9 +1,18 @@
 {
-  "name": "Alex G Portafolio",
-  "short_name": "portafolio",
-  "start_url": ".",
+  "short_name": "Chato's",
+  "name": "Chato's Paint and Woodwork",
+  "description": "Painting and carpinter services",
+  "icons": [
+    {
+      "src": "img/chatos-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {}
+  ],
+  "start_url": "index.html",
   "display": "standalone",
-  "theme_color": "#FFFFFF",
-  "background_color": "#FFFFFF",
+  "theme_color": "#daa52",
+  "background_color": "#daa52",
   "orientation": "portrait-primary"
 }
