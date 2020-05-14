@@ -2,7 +2,7 @@
   "short_name": "Chato's",
   "name": "Chato's Paint and Woodwork",
   "description": "Painting and carpinter services",
-  "start_url": "/index.html",
+  "start_url": "index.html",
   "display": "standalone",
   "background_color": "#FFE9D2",
   "theme_color": "#FFE9D2",
