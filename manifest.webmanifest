@@ -4,9 +4,16 @@
   "description": "Painting and carpinter services",
   "start_url": "/index.html",
   "display": "standalone",
-  "theme_color": "#FFE9D2",
   "background_color": "#FFE9D2",
+  "theme_color": "#FFE9D2",
   "orientation": "portrait-primary",
+  "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "play",
+      "id": "example"
+    }
+  ],
   "icons": [
     {
       "src": "img/pwa-logos/chatos-simp-logo-circle-72x72.png",
